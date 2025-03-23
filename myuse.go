@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 
-	"github.com/zhanggy1984/mathutil"
+	"github.com/zhanggy1984/mathutil/v2"
 )
 
 func main() {
@@ -19,4 +19,18 @@ func main() {
 	// 使用几何运算
 	area := mathutil.CircleArea(1.15)
 	fmt.Println("Circle Area:", area) // 输出: Circle Area: 12.566370614359172
+
+	result, err := mathutil.Multiply(2, 3)
+	fmt.Printf("result: %v, err: %v\n", result, err)
+
+	// 	%d：格式化整数。
+
+	//  %s：格式化字符串。
+
+	//  %f：格式化浮点数。
+
+	//  %v：通用占位符，可以格式化任意类型的值。
+
+	//  %T：格式化值的类型。
+
 }
