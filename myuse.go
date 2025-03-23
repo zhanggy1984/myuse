@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 
-	"github.com/zhanggy1984/mathutil/v2"
+	"github.com/zhanggy1984/mathutil/v3"
 )
 
 func main() {
